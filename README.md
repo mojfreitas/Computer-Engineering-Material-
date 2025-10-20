@@ -22,7 +22,7 @@ Projetos e recursos reunidos durante a minha Licenciatura em Engenharia Informá
 - **Gestão de Redes** - 
 - **Serviços de Rede II** - 
 - **Tecnologias de Ligação** -
-- **PWEB (Programação WEB)** - 🚧 *Em construção...*
+- **Programação WEB (PWEB)** - 🚧 *Em construção...*
 
 
 
@@ -43,9 +43,13 @@ Projects and resources gathered from my Computer Engineering Degree @ ISEC🎓
 - **Structured Cabling (CE)** - 
 - **Data Routing (ED)** - 
 - **Operating Systems II (SO2)** - 
-- **Security (Segurança)** - 
+- **Security (Segurança)** -
+- **Operating Systems** - 🚧 *Under construction...*
+- **Object-Oriented Programming** - 🚧 *Under construction...*
 
 ### **3rd Year**
 - **Network Management (GR)** - 
 - **Network Services II (SR2)** - 
-- **Connection Tecnologies (TL)** - 
+- **Connection Tecnologies (TL)** -
+- **WEB Programming (PWEB)** - 🚧 *Under construction...*
+
