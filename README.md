@@ -1,7 +1,7 @@
 # PORTUGUÊS (PT)
 
 ## Material-Engenharia-Informática
-Projetos e recursos reunidos durante a minha Licenciatura em Engenharia Informática no ISEC 🎓<br>
+Projetos e recursos reunidos durante a minha Licenciatura em Engenharia Informática no ISEC 🎓<br><br>
 💡 **Nota:** *Este repositório inclui apenas as unidades curriculares que continham trabalhos práticos/projetos desenvolvidos ao longo do curso.*
 
 
@@ -33,7 +33,7 @@ Projetos e recursos reunidos durante a minha Licenciatura em Engenharia Informá
 # ENGLISH (EN)
 
 ## Computer-Engineering-Material
-Projects and resources gathered from my Computer Engineering Degree @ ISEC🎓<br>
+Projects and resources gathered from my Computer Engineering Degree @ ISEC🎓<br><br>
 💡 **Note:** *Only subjects with practical project components are included here.*
 
 ## 📚 Repository Structure
