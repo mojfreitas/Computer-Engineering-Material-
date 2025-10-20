@@ -1,6 +1,6 @@
-## PORTUGUÊS (PT)
+## PORTUGUÊS (PT)🇵🇹
 
-# Computer-Engineering-Material-
+# Material-Engenharia-Informática
 Projetos e recursos reunidos durante a minha Licenciatura em Engenharia Informática @ ISEC 🎓
 
 ## 📚 Estrutura do Repositório
