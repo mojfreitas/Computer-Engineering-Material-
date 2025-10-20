@@ -22,7 +22,7 @@ Projetos e recursos reunidos durante a minha Licenciatura em Engenharia Informá
 - **Tecnologias de Ligação** - 
 
 
-### ENGLISH (EN)
+# ENGLISH (EN)
 
 # Computer-Engineering-Material
 Projects and resources gathered from my Computer Engineering Degree @ ISEC🎓
