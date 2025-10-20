@@ -34,7 +34,7 @@
 
 ## Computer-Engineering-Material
 - Projects and resources gathered from my Computer Engineering Degree @ ISEC🎓<br><br>
-💡 **Note:** *Only subjects with practical project components are included here.*
+**Note:** *Only subjects with practical project components are included here.*
 
 ## 📚 Repository Structure
 
