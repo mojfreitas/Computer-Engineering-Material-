@@ -1,4 +1,4 @@
-# PORTUGUÊS (🇵🇹)
+# PORTUGUÊS (PT)
 
 ## Material-Engenharia-Informática
 Projetos e recursos reunidos durante a minha Licenciatura em Engenharia Informática no ISEC 🎓
