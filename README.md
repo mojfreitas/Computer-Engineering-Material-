@@ -1,5 +1,7 @@
+## PORTUGUÊS (PT)
+
 # Computer-Engineering-Material-
-Projects and resources gathered from my Computer Engineering Degree @ ISEC🎓
+Projetos e recursos reunidos durante a minha Licenciatura em Engenharia Informática @ ISEC 🎓
 
 ## 📚 Estrutura do Repositório
 
@@ -19,3 +21,9 @@ Projects and resources gathered from my Computer Engineering Degree @ ISEC🎓
 - **Serviços de Rede II** - 
 - **Tecnologias de Ligação** - 
 
+
+## ENGLISH (EN)
+
+# Computer-Engineering-Material-
+
+Projects and resources gathered from my Computer Engineering Degree @ ISEC🎓
