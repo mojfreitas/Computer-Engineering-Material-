@@ -8,22 +8,22 @@
 ## 📚 Estrutura do Repositório
 
 ### **1º Ano**
-- **Fundamentos de Computação Gráfica** - 
-- **Tecnologias e Arquitetura de Computadores** - 
+- **Fundamentos de Computação Gráfica** 
+- **Tecnologias e Arquitetura de Computadores** 
 
 ### **2º Ano**
-- **Bases de Dados** - 
-- **Cablagem Estruturada** - 
-- **Encaminhamento de Dados** - 
-- **Sistemas Operativos II** - 
-- **Segurança** -
+- **Bases de Dados** 
+- **Cablagem Estruturada** 
+- **Encaminhamento de Dados** 
+- **Sistemas Operativos II**  
+- **Segurança** 
 - **Sistemas Operativos** - 🚧 *Em construção...*
 - **Programação Orientada a Objetos** - 🚧 *Em construção...*
 
 ### **3º Ano**
-- **Gestão de Redes** - 
-- **Serviços de Rede II** - 
-- **Tecnologias de Ligação** -
+- **Gestão de Redes** 
+- **Serviços de Rede II** 
+- **Tecnologias de Ligação** 
 - **Programação WEB (PWEB)** - 🚧 *Em construção...*
 
 <br>
@@ -43,17 +43,17 @@
 - **Computer Technologies and Architecture (TAC)** - 
 
 ### **2nd Year**
-- **Databases (BD)** - 
-- **Structured Cabling (CE)** - 
-- **Data Routing (ED)** - 
-- **Operating Systems II (SO2)** - 
-- **Security (Segurança)** -
+- **Databases (BD)**  
+- **Structured Cabling (CE)** 
+- **Data Routing (ED)** 
+- **Operating Systems II (SO2)** 
+- **Security (Segurança)**
 - **Operating Systems** - 🚧 *Under construction...*
 - **Object-Oriented Programming** - 🚧 *Under construction...*
 
 ### **3rd Year**
-- **Network Management (GR)** - 
-- **Network Services II (SR2)** - 
-- **Connection Tecnologies (TL)** -
+- **Network Management (GR)** 
+- **Network Services II (SR2)** 
+- **Connection Tecnologies (TL)** 
 - **WEB Programming (PWEB)** - 🚧 *Under construction...*
 
