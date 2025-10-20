@@ -39,8 +39,8 @@
 ## 📚 Repository Structure
 
 ### **1st Year**
-- **Fundamentals of Computer Graphics (FCG)** - 
-- **Computer Technologies and Architecture (TAC)** - 
+- **Fundamentals of Computer Graphics (FCG)**  
+- **Computer Technologies and Architecture (TAC)** 
 
 ### **2nd Year**
 - **Databases (BD)**  
