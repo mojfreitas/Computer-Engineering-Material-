@@ -1,6 +1,6 @@
-## PORTUGUÊS (🇵🇹)
+# PORTUGUÊS (🇵🇹)
 
-# Material-Engenharia-Informática
+## Material-Engenharia-Informática
 Projetos e recursos reunidos durante a minha Licenciatura em Engenharia Informática @ ISEC 🎓
 
 ## 📚 Estrutura do Repositório
