@@ -1,5 +1,5 @@
 # Computer-Engineering-Material-
-Resources and Projects from my Computer Engineering Degree @ ISEC🎓
+Projects and resources gathered from my Computer Engineering Degree @ ISEC🎓
 
 ## 📚 Estrutura do Repositório
 
