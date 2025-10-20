@@ -32,8 +32,8 @@ Projects and resources gathered from my Computer Engineering Degree @ ISEC🎓
 ## 📚 Repository Structure
 
 ### **1st Year**
-- **Fundamentals of Computer Graphics** - 
-- **Computer Technologies and Architecture** - 
+- **Fundamentals of Computer Graphics (FCG)** - 
+- **Computer Technologies and Architecture (TAC)** - 
 
 ### **2nd Year**
 - **Databases (BD)** - 
