@@ -28,7 +28,6 @@ Projetos e recursos reunidos durante a minha Licenciatura em Engenharia Informá
 <br>
 <br>
 
-
 # ENGLISH (EN)
 
 ## Computer-Engineering-Material
