@@ -14,12 +14,15 @@ Projetos e recursos reunidos durante a minha Licenciatura em Engenharia Informá
 - **Cablagem Estruturada** - 
 - **Encaminhamento de Dados** - 
 - **Sistemas Operativos II** - 
-- **Segurança** - 
+- **Segurança** -
+- **Sistemas Operativos** - 🚧 *Em construção...*
+- **Programação Orientada a Objetos** - 🚧 *Em construção...*
 
 ### **3º Ano**
 - **Gestão de Redes** - 
 - **Serviços de Rede II** - 
-- **Tecnologias de Ligação** - 
+- **Tecnologias de Ligação** -
+- **PWEB (Programação WEB)** - 🚧 *Em construção...*
 
 
 
