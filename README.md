@@ -22,23 +22,27 @@ Projetos e recursos reunidos durante a minha Licenciatura em Engenharia Informá
 - **Tecnologias de Ligação** - 
 
 
+
+
 # ENGLISH (EN)
 
-# Computer-Engineering-Material
+## Computer-Engineering-Material
 Projects and resources gathered from my Computer Engineering Degree @ ISEC🎓
 
+## 📚 Repository Structure
+
 ### **1st Year**
-- **Fundamentos de Computação Gráfica** - 
-- **Tecnologias e Arquitetura de Computadores** - 
+- **Fundamentals of Computer Graphics** - 
+- **Computer Technologies and Architecture** - 
 
 ### **2nd Year**
-- **Bases de Dados** - 
-- **Cablagem Estruturada** - 
-- **Encaminhamento de Dados** - 
-- **Sistemas Operativos II** - 
-- **Segurança** - 
+- **Databases (BD)** - 
+- **Structured Cabling (CE)** - 
+- **Data Routing (ED)** - 
+- **Operating Systems II (SO2)** - 
+- **Security (Segurança)** - 
 
 ### **3rd Year**
-- **Gestão de Redes** - 
-- **Serviços de Rede II** - 
-- **Tecnologias de Ligação** - 
+- **Network Management (GR)** - 
+- **Network Services II (SR2)** - 
+- **Connection Tecnologies (TL)** - 
