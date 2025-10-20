@@ -24,8 +24,7 @@ Projetos e recursos reunidos durante a minha Licenciatura em Engenharia Informá
 - **Tecnologias de Ligação** -
 - **Programação WEB (PWEB)** - 🚧 *Em construção...*
 
-
-
+<br>
 
 # ENGLISH (EN)
 
