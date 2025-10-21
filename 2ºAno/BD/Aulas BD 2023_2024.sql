@@ -27,10 +27,10 @@ EXEC SQLCHECK('FBHYDWADZAUJFAT');
 select distinct genero from livros where paginas > 400 or preco_tabela > 25 order by genero;
 EXEC SQLCHECK('FBJQNSWEVIFUGWV');
 
-select titulo, preco_tabela As preco from livros where genero = 'Inform·tica' order by preco asc;
+select titulo, preco_tabela As preco from livros where genero = 'Inform√°tica' order by preco asc;
 EXEC SQLCHECK('FBHOWKTFDMPWHAI');
 
-select titulo, ISBN, quant_em_stock from livros where genero = 'Inform·tica' and quant_em_stock > 10 order by preco_tabela asc, quant_em_stock desc;
+select titulo, ISBN, quant_em_stock from livros where genero = 'Inform√°tica' and quant_em_stock > 10 order by preco_tabela asc, quant_em_stock desc;
 EXEC SQLCHECK('FBLPCFWGZYXCITX');
 
 select distinct codigo_autor from livros order by codigo_autor DESC;
@@ -90,7 +90,7 @@ EXEC SQLCHECK('FCTVMKWGHTEVJOA');
 
 select distinct TITULO,PRECO_TABELA,UNIDADES_VENDIDAS, round(preco_tabela * unidades_vendidas * 0.20, 2) as "Rendeu"
 from livros
-WHERE genero = 'Fant·stico'
+WHERE genero = 'Fant√°stico'
 order by 4 desc;
 EXEC SQLCHECK('FCGBQWUHPLOLVGV');
 
@@ -108,7 +108,7 @@ where (unidades_vendidas * preco_tabela * 0.2) >= 400000
 order by 4 desc ,3;
 EXEC SQLCHECK('FCTTXUUJYDKYYCO');
 
-select titulo, preco_tabela, paginas,round((preco_tabela/(paginas/100)),2) as "Custo p·gina",ceil(preco_tabela/(paginas/100)) as "Custo p·g.(sup)",floor(preco_tabela/(paginas/100)) as "Custo p·g.(inf)"
+select titulo, preco_tabela, paginas,round((preco_tabela/(paginas/100)),2) as "Custo p√°gina",ceil(preco_tabela/(paginas/100)) as "Custo p√°g.(sup)",floor(preco_tabela/(paginas/100)) as "Custo p√°g.(inf)"
 from livros
 where paginas BETWEEN 100 and 300
 order by 1;
@@ -116,7 +116,7 @@ EXEC SQLCHECK('FCQVTXHKQBHFJBZ');
 
 select lower (titulo) as "Titulo (em minusculas)", upper (titulo) as "Titulo (em maiusculas)", initcap (titulo) as "Titulo (1a letra maiuscula)"
 from livros
-where genero like 'Inform·tica'
+where genero like 'Inform√°tica'
 order by titulo;
 EXEC SQLCHECK('FCFXAVLLOEBMIEN');
 
@@ -129,7 +129,7 @@ EXEC SQLCHECK('FCROYAZMYRXAHEL');
 SELECT NOME AS "Nome completo", SUBSTR(NOME, 0 , INSTR(NOME, ' ') -1) AS "Primeiro Nome", 
 SUBSTR(NOME, INSTR(NOME, ' ', -1) +1) AS "Ultimo Nome"
 FROM AUTORES 
-WHERE GENERO_PREFERIDO LIKE 'Inform·tica'
+WHERE GENERO_PREFERIDO LIKE 'Inform√°tica'
 ORDER BY IDADE, 1;
 EXEC SQLCHECK('FCVMAFTNZJENMQU');
 
@@ -151,7 +151,7 @@ EXEC SQLCHECK('FCYYGHXPVYZLYEN');
 
 SELECT TITULO, PRECO_TABELA AS "PRECO", ROUND((PRECO_TABELA * 0.08) + PRECO_TABELA, 1) AS "PRECO_COM_AUMENTO"
 FROM LIVROS
-WHERE GENERO LIKE 'Fant·stico' AND PRECO_TABELA > 20
+WHERE GENERO LIKE 'Fant√°stico' AND PRECO_TABELA > 20
 ORDER BY 3 DESC;
 EXEC SQLCHECK('FCGQIBVQANPMAAK');
 ----------------------------------------------------------------------------------------------------------------------------------
@@ -182,7 +182,7 @@ EXEC SQLCHECK('FDKWDJZFBNMKJXK');
 
 SELECT L.TITULO, TO_CHAR(L.DATA_EDICAO, 'YYYY-MM') AS "ANO_MES"
 FROM LIVROS L, VENDAS V 
-WHERE L.GENERO LIKE 'Inform·tica' 
+WHERE L.GENERO LIKE 'Inform√°tica' 
 AND TO_CHAR(L.DATA_EDICAO, 'YYYY-MM') = TO_CHAR(V.DATA_VENDA, 'YYYY-MM') 
 AND L.CODIGO_LIVRO = V.CODIGO_LIVRO
 ORDER BY 2;
@@ -192,7 +192,7 @@ SELECT DISTINCT A.NOME
 FROM AUTORES A, LIVROS L
 WHERE L.PAGINAS < 630 AND 
 L.CODIGO_AUTOR = A.CODIGO_AUTOR AND
-L.GENERO LIKE 'Inform·tica' AND
+L.GENERO LIKE 'Inform√°tica' AND
 L.DATA_EDICAO BETWEEN TO_DATE('2013-12-21', 'YYYY-MM-DD') AND TO_DATE('2014-03-21', 'YYYY-MM-DD')
 ORDER BY 1;
 EXEC SQLCHECK('FDHHZHYHUIKALHN');
@@ -236,12 +236,12 @@ EXEC SQLCHECK ('FDBJQVPLQMMGPLE');
 ----------------------------------------------------Aula 5------------------------------------------------------------------------
 exec naluno (2021145193);
 
-select count(*) As "Num Livros de Inform·tica"
+select count(*) As "Num Livros de Inform√°tica"
 from livros
-where genero = 'Inform·tica' and preco_tabela >= 20 and preco_tabela <= 40;
+where genero = 'Inform√°tica' and preco_tabela >= 20 and preco_tabela <= 40;
 EXEC SQLCHECK('FEKPMBHCGFHKHRG');
 
-select count(*) As "Num Livros Editados", Sum(unidades_vendidas) As "Total Unidades vendidas", avg(preco_tabela) As "PreÁo de Tabela MÈdio"
+select count(*) As "Num Livros Editados", Sum(unidades_vendidas) As "Total Unidades vendidas", avg(preco_tabela) As "Pre√ßo de Tabela M√©dio"
 from livros
 where genero in ('Romance','Aventura');
 EXEC SQLCHECK('FEQZNHADADLXIRE');
@@ -257,7 +257,7 @@ Min(preco_unitario) As PRECO_MAIS_BAIXO,
 Max(preco_unitario) As PRECO_MAIS_ALTO, 
 Round(AVG(preco_unitario),2) As PRECO_MEDIO
 from livros, vendas
-where genero = 'Inform·tica' and livros.codigo_livro = vendas.codigo_livro
+where genero = 'Inform√°tica' and livros.codigo_livro = vendas.codigo_livro
 group by titulo
 order by 3 desc, titulo asc;
 EXEC SQLCHECK('FEMKYWMFLFBFKTH');
@@ -277,7 +277,7 @@ GROUP BY TITULO,PRECO_TABELA
 ORDER BY NUM_VENDIDOS;
 EXEC SQLCHECK('FELBAFEHXKEYMHB');
 
-SELECT GENERO, ceil(AVG(preco_tabela)) AS "PRECO MÈdio"
+SELECT GENERO, ceil(AVG(preco_tabela)) AS "PRECO M√©dio"
 FROM livros
 GROUP BY genero
 HAVING COUNT(*) > 3
@@ -317,20 +317,20 @@ EXEC SQLCHECK('FEKXNTJLDGJOQTJ');
 exec naluno (2021145193);
 SELECT TITULO, PRECO_TABELA AS "Preco_Mais_Baixo"
 FROM LIVROS
-WHERE GENERO = 'Fant·stico' AND PRECO_TABELA = (SELECT MIN(PRECO_TABELA) FROM LIVROS WHERE GENERO = 'Fant·stico');
+WHERE GENERO = 'Fant√°stico' AND PRECO_TABELA = (SELECT MIN(PRECO_TABELA) FROM LIVROS WHERE GENERO = 'Fant√°stico');
 EXEC SQLCHECK('FFKMXQQCCWIZINA');
 
 SELECT TITULO, PAGINAS "N_Paginas", PRECO_TABELA "Preco_mais_Baixo"
 FROM LIVROS
-WHERE GENERO = 'Fant·stico' AND PRECO_TABELA = (Select MIN(PRECO_TABELA) FROM LIVROS WHERE GENERO = 'Fant·stico');
+WHERE GENERO = 'Fant√°stico' AND PRECO_TABELA = (Select MIN(PRECO_TABELA) FROM LIVROS WHERE GENERO = 'Fant√°stico');
 EXEC SQLCHECK('FFDJTIRDJJNSJGQ');
  
 SELECT  PRECO_TABELA "Preco_Mais_Baixo",TITULO
 FROM LIVROS L1
-WHERE GENERO = 'Fant·stico' AND NOT EXISTS (
+WHERE GENERO = 'Fant√°stico' AND NOT EXISTS (
     SELECT 1
     FROM LIVROS L2
-    WHERE L2.GENERO = 'Fant·stico' AND L2.PRECO_TABELA < L1.PRECO_TABELA
+    WHERE L2.GENERO = 'Fant√°stico' AND L2.PRECO_TABELA < L1.PRECO_TABELA
     );
 EXEC SQLCHECK('FFZMRWEEXQNJKIQ');
 
@@ -339,10 +339,10 @@ FROM LIVROS L
 JOIN (
     SELECT GENERO, MIN(PRECO_TABELA) AS PRECO_MIN
     FROM LIVROS
-    WHERE GENERO = 'Fant·stico'
+    WHERE GENERO = 'Fant√°stico'
     GROUP BY GENERO
 ) SUBQ
-ON L.GENERO = 'Fant·stico' AND L.PRECO_TABELA = SUBQ.PRECO_MIN;
+ON L.GENERO = 'Fant√°stico' AND L.PRECO_TABELA = SUBQ.PRECO_MIN;
 EXEC SQLCHECK('FFOIHIAFORVLLSJ');
 
 SELECT DISTINCT A.NOME
@@ -385,7 +385,7 @@ from livros, (select L.codigo_autor, min(L.preco_tabela) pt
 from livros L
 group by
 L.codigo_autor) aa
-where genero like 'Fant·stico'
+where genero like 'Fant√°stico'
 and livros.CODIGO_AUTOR =
 aa.codigo_autor
 order by 1,2;
@@ -507,7 +507,7 @@ ORDER BY
     l.TITULO;
 EXEC SQLCHECK('FGKMUHRFQTBIMZF');
 
-SELECT C.CODIGO_CLIENTE AS "CÛdigo do Cliente", C.NOME AS "Nome", SUM(V.QUANTIDADE) AS NUM_LIVROS_COMPRADOS
+SELECT C.CODIGO_CLIENTE AS "C√≥digo do Cliente", C.NOME AS "Nome", SUM(V.QUANTIDADE) AS NUM_LIVROS_COMPRADOS
 FROM VENDAS V
 JOIN CLIENTES C ON V.CODIGO_CLIENTE = C.CODIGO_CLIENTE
 WHERE V.DATA_VENDA BETWEEN TO_DATE('2020-10-01', 'YYYY-MM-DD') AND TO_DATE('2020-12-31', 'YYYY-MM-DD')
@@ -862,10 +862,10 @@ INSERT INTO LIVROS_BACKUP VALUES(
     WHERE NOME LIKE UPPER('FCA%')),
     (SELECT CODIGO_AUTOR
     FROM AUTORES
-    WHERE UPPER(NOME) = 'S…RGIO SOUSA'),
+    WHERE UPPER(NOME) = 'S√âRGIO SOUSA'),
     'Informatica para todos',
     132434,
-    'Inform·tica',
+    'Inform√°tica',
     24,
     430,
     null,
@@ -877,7 +877,7 @@ EXEC SQLCHECK('FJEEBXSGVMHBUGB');
 ------ EX 8
 INSERT INTO AUTORES2 VALUES(
     45,
-    'JOS… DE MAGALH√ES',
+    'JOS√â DE MAGALH√ÉES',
     77665544,
     NULL,NULL,NULL,NULL,NULL);
 EXEC SQLCHECK('FJSHIAGHEFTFMOU');
@@ -896,10 +896,10 @@ EXEC SQLCHECK('FJENOMGJBYRFHME');
 
 ------ EX 11
 DELETE LIVROS_BACKUP
-WHERE GENERO = 'INFORM¡TICA' AND
+WHERE GENERO = 'INFORM√ÅTICA' AND
 PRECO_TABELA < (SELECT AVG(PRECO_TABELA)
                 FROM LIVROS_BACKUP
-                WHERE GENERO = 'INFORM¡TICA');
+                WHERE GENERO = 'INFORM√ÅTICA');
 EXEC SQLCHECK('FJJMILYKNGTVTXU');
 
 ---- EX 12
@@ -967,7 +967,7 @@ delete from vendas_backup
 where preco_unitario = (select max(preco_tabela)
                         from livros, autores
                         where livros.codigo_autor = autores.codigo_autor
-                        and autores.nome like '%SÈrgio%Sousa%'
+                        and autores.nome like '%S√©rgio%Sousa%'
 and vendas_backup.codigo_livro = livros.codigo_livro
 )
 10.txt
@@ -984,13 +984,13 @@ exec naluno (2021145193);
 
 -----EX3------
 
-CREATE SEQUENCE exp_sequencia; /*Cria a sequÍncia exp_sequÍncia que comeÁa a 1 e incrementa de 1 em 1*/
-SELECT exp_sequencia.CURRVAL FROM dual; -- Erro pois a sequÍncia n„o foi inicializada
-SELECT exp_sequencia.NEXTVAL FROM dual; -- Inicia a sequÍncia e devolve o valor atual 1
-SELECT exp_sequencia.NEXTVAL FROM dual; -- Incrementa a sequÍncia e devolve o valor atual 2
-SELECT exp_sequencia.NEXTVAL from dual; -- Incrementa a sequÍncia e devolve o valor atual 3
-SELECT exp_sequencia.CURRVAL FROM dual; -- Devolve o valor atual da sequÍncia
-DROP SEQUENCE exp_sequencia; -- Apaga a sequÍncia
+CREATE SEQUENCE exp_sequencia; /*Cria a sequ√™ncia exp_sequ√™ncia que come√ßa a 1 e incrementa de 1 em 1*/
+SELECT exp_sequencia.CURRVAL FROM dual; -- Erro pois a sequ√™ncia n√£o foi inicializada
+SELECT exp_sequencia.NEXTVAL FROM dual; -- Inicia a sequ√™ncia e devolve o valor atual 1
+SELECT exp_sequencia.NEXTVAL FROM dual; -- Incrementa a sequ√™ncia e devolve o valor atual 2
+SELECT exp_sequencia.NEXTVAL from dual; -- Incrementa a sequ√™ncia e devolve o valor atual 3
+SELECT exp_sequencia.CURRVAL FROM dual; -- Devolve o valor atual da sequ√™ncia
+DROP SEQUENCE exp_sequencia; -- Apaga a sequ√™ncia
 EXEC SQLCHECK('FKGFNXWCTITWNME');
 
 -----EX4------
@@ -1020,12 +1020,12 @@ EXEC SQLCHECK('FKYDNPXFPBWPIRC');
 
 Alter Table EDITORAS_BACKUP MODIFY(MORADA VARCHAR(60));
 INSERT INTO EDITORAS_BACKUP (ID_EDITORA, NOME, TELEFONE, MORADA, N_CONTRIBUINTE, FAX)
-VALUES (seq_editback.nextval, 'D.Quixote', 901111111, 'Rua Cidade de CÛrdova, n.2 2610-038 Alfragide', 707252252, 707252253);
+VALUES (seq_editback.nextval, 'D.Quixote', 901111111, 'Rua Cidade de C√≥rdova, n.2 2610-038 Alfragide', 707252252, 707252253);
 EXEC SQLCHECK('FKIVZGPGIOZKVZL');
 
 -----EX8------
 
-INSERT INTO EDITORAS_BACKUP VALUES(seq_editback.nextval, 'Almedina',  901212121, 'Rua Fernandes Tom·s, n.∫ 76 a 80, 3000-167 Coimbra, Portugal', 239851903, 239851904);
+INSERT INTO EDITORAS_BACKUP VALUES(seq_editback.nextval, 'Almedina',  901212121, 'Rua Fernandes Tom√°s, n.¬∫ 76 a 80, 3000-167 Coimbra, Portugal', 239851903, 239851904);
 EXEC SQLCHECK('FKAQCEVHKASRDLO');
 
 -----EX9------
@@ -1044,13 +1044,13 @@ EXEC SQLCHECK('FKEPPMCJBROFZHT');
 
 CREATE VIEW LIVROS_INFORMATICA AS
 SELECT * FROM LIVROS
-WHERE upper(genero) = 'INFORM¡TICA';
+WHERE upper(genero) = 'INFORM√ÅTICA';
 EXEC SQLCHECK('FKNAOLLKSLABNKG');
 
 -----EX12------
 
---A tabela livros_informatica ter· dois novos registos, com os dados dos livros ëUma noite de Ver„oí e ëO cÈu È azulí. Estes livros pertencem ao gÈnero de inform·tica e romance, respectivamente.
---A tabela livros ter· um novo registo, com os dados do livro ëLonge de tudoí. Este livro pertence ao gÈnero de inform·tica e tem o cÛdigo da editora 2 e o cÛdigo do autor 2. Estes cÛdigos devem corresponder a registos existentes nas tabelas editoras e autores, respectivamente, para garantir a integridade referencial
+--A tabela livros_informatica ter√° dois novos registos, com os dados dos livros ¬ëUma noite de Ver√£o¬í e ¬ëO c√©u √© azul¬í. Estes livros pertencem ao g√©nero de inform√°tica e romance, respectivamente.
+--A tabela livros ter√° um novo registo, com os dados do livro ¬ëLonge de tudo¬í. Este livro pertence ao g√©nero de inform√°tica e tem o c√≥digo da editora 2 e o c√≥digo do autor 2. Estes c√≥digos devem corresponder a registos existentes nas tabelas editoras e autores, respectivamente, para garantir a integridade referencial
 
 -----EX13------
 
@@ -1089,7 +1089,7 @@ EXEC SQLCHECK('FKDGLKJRGRCADEV');
 -----EX19------
 
 SELECT * FROM AUTOR_LIVRO; 
---N„o È possÌvel vizualizar nada, porque a vista n„o guarda informaÁ„o e apagamos os registos na tabela original
+--N√£o √© poss√≠vel vizualizar nada, porque a vista n√£o guarda informa√ß√£o e apagamos os registos na tabela original
 EXEC SQLCHECK('FKBMGXFSRZOUQYF');
 
 -----EX20------
@@ -1100,7 +1100,7 @@ EXEC SQLCHECK('FKASZYETZHOLOEE');
 -----EX21------
 
 SELECT * FROM AUTOR_LIVRO; 
---Deu ERRO, pois a View est· a tentar aceder a uma tabela que n„o existe
+--Deu ERRO, pois a View est√° a tentar aceder a uma tabela que n√£o existe
 EXEC SQLCHECK('FKGRFMEUNATDSFN');
 
 -----EX22------
