@@ -8,22 +8,22 @@
 ## 📚 Estrutura do Repositório
 
 ### **1º Ano**
-- **Fundamentos de Computação Gráfica**(FCG) 
-- **Tecnologias e Arquitetura de Computadores**(TAC) 
+- **Fundamentos de Computação Gráfica** (FCG) 
+- **Tecnologias e Arquitetura de Computadores** (TAC) 
 
 ### **2º Ano**
-- **Bases de Dados**(BD) 
-- **Cablagem Estruturada**(CE) 
-- **Encaminhamento de Dados**(ED) 
-- **Sistemas Operativos II**(SO2)  
+- **Bases de Dados** (BD) 
+- **Cablagem Estruturada** (CE) 
+- **Encaminhamento de Dados** (ED) 
+- **Sistemas Operativos II** (SO2)  
 - **Segurança** 
 - **Sistemas Operativos** - 🚧 *Em construção...*
 - **Programação Orientada a Objetos** - 🚧 *Em construção...*
 
 ### **3º Ano**
-- **Gestão de Redes**(GR) 
-- **Serviços de Rede II**(SR2) 
-- **Tecnologias de Ligação**(TL) 
+- **Gestão de Redes** (GR) 
+- **Serviços de Rede II** (SR2) 
+- **Tecnologias de Ligação** (TL) 
 - **Programação WEB (PWEB)** - 🚧 *Em construção...*
 
 <br>
