@@ -26,9 +26,9 @@
 - **Tecnologias de Ligação** (TL) 
 - **Programação WEB (PWEB)** - 🚧 *Em construção...*
 <br>
-### **Estágio NOS**
-- **Data:** 15 Julho – 14 Agosto de 2024  
-- **Descrição:** Desenvolvimento de uma aplicação web em PHP utilizando a framework Laravel, integrada com uma base de dados MySQL para gestão e armazenamento de informação.
+###**Estágio NOS**
+**Duração:** 15 Julho – 14 Agosto de 2024  
+**Descrição:** Desenvolvimento de uma aplicação web em PHP utilizando a framework Laravel, integrada com uma base de dados MySQL para gestão e armazenamento de informação.
 <br>
 <br>
 
@@ -59,7 +59,7 @@
 - **Connection Tecnologies (TL)** 
 - **WEB Programming (PWEB)** - 🚧 *Under construction...*
 <br>
-### **Internship NOS**
-- **Date:** March – July 2025  
-- **Description:** Development of a **web application in PHP** using the **Laravel framework**, integrated with a **MySQL database** for data management and storage. Project carried out during the curricular internship at **NÓS Comunicações**, focused on software development.
+###**Internship NOS**
+**Duration:** 15th July – 14 August, 2024   
+**Description:** Development of a web application in PHP using the Laravel framework, integrated with a MySQL database for data management and storage. 
 
