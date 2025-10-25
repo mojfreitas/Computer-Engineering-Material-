@@ -24,8 +24,8 @@
 - **Gestão de Redes** (GR) 
 - **Serviços de Rede II** (SR2) 
 - **Tecnologias de Ligação** (TL) 
-- **Programação WEB (PWEB)** - 🚧 *Em construção...*
-<br>
+- **Programação WEB (PWEB)** - 🚧 *Em construção...* <br>
+
 ### **Estágio NOS**
 **Duração:** 15 Julho – 14 Agosto de 2024  
 **Descrição:** Desenvolvimento de uma aplicação web em PHP utilizando a framework Laravel, integrada com uma base de dados MySQL para gestão e armazenamento de informação.
@@ -56,8 +56,8 @@
 - **Network Management (GR)** 
 - **Network Services II (SR2)** 
 - **Connection Tecnologies (TL)** 
-- **WEB Programming (PWEB)** - 🚧 *Under construction...*
-<br>  
+- **WEB Programming (PWEB)** - 🚧 *Under construction...* <br>
+
 ### **Internship NOS**
 **Duration:** 15 July – 14 August, 2024  
 **Description:** Development of a web application in PHP using the Laravel framework, integrated with a MySQL database for data management and storage. 
