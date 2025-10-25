@@ -2,7 +2,7 @@
 
 ## Material-Engenharia-Informática
 - Projetos e recursos reunidos durante a minha Licenciatura em Engenharia Informática no ISEC 🎓<br><br>
-**Nota:** *Este repositório inclui apenas as unidades curriculares que continham trabalhos práticos/projetos desenvolvidos ao longo do curso.*
+**Nota:** *Este repositório inclui apenas as unidades curriculares que continham trabalhos práticos/projetos desenvolvidos durante o curso.*
 
 
 ## 📚 Estrutura do Repositório
