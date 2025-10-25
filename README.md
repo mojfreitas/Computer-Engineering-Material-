@@ -57,3 +57,13 @@
 - **Connection Tecnologies (TL)** 
 - **WEB Programming (PWEB)** - 🚧 *Under construction...*
 
+### **Estágio NÓS**
+- **Data:** Março – Julho de 2025  
+- **Descrição:** Desenvolvimento de uma **aplicação web em PHP** utilizando o **framework Laravel**, integrada com uma **base de dados MySQL** para gestão e armazenamento de informação. Projeto realizado durante o estágio curricular na **NÓS Comunicações**, no âmbito do desenvolvimento de software.
+
+<br>
+
+### **Internship NÓS**
+- **Date:** March – July 2025  
+- **Description:** Development of a **web application in PHP** using the **Laravel framework**, integrated with a **MySQL database** for data management and storage. Project carried out during the curricular internship at **NÓS Comunicações**, focused on software development.
+
