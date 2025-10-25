@@ -57,7 +57,6 @@
 - **Network Services II (SR2)** 
 - **Connection Tecnologies (TL)** 
 - **WEB Programming (PWEB)** - 🚧 *Under construction...*
+
 ###**Internship NOS**
-**Duration:** 15th July – 14 August, 2024   
-**Description:** Development of a web application in PHP using the Laravel framework, integrated with a MySQL database for data management and storage. 
 
