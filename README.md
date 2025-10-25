@@ -57,6 +57,8 @@
 - **Network Services II (SR2)** 
 - **Connection Tecnologies (TL)** 
 - **WEB Programming (PWEB)** - 🚧 *Under construction...*
-
-###**Internship NOS**
+  
+### **Estágio NOS**
+**Duração:** 15 Julho – 14 Agosto de 2024  
+**Descrição:** Desenvolvimento de uma aplicação web em PHP utilizando a framework Laravel, integrada com uma base de dados MySQL para gestão e armazenamento de informação.
 
