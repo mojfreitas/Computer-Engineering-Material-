@@ -1,0 +1,15 @@
+Administradores
+   admin@mycoll.pt - Admin123! (PERMANENTE)
+   admin@mycoll.com - Admin123!
+Fornecedores
+   forn1@pweb.com - Forn123!
+Funcionarios
+   func@pweb.com - Func123!
+   func2@pweb.com - Func123!
+Clientes
+   Cli1@pweb.com - Cli123!
+   joaofirmino@pweb.com - Cli123!
+
+Teste
+   martimfreitas@pweb.com - Martim123!
+
