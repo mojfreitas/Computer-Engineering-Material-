@@ -17,14 +17,14 @@
 - **Encaminhamento de Dados** (ED) 
 - **Sistemas Operativos II** (SO2)  
 - **Segurança** 
-- **Sistemas Operativos** - 🚧 *Em construção...*
-- **Programação Orientada a Objetos** - 🚧 *Em construção...*
+- **Sistemas Operativos** (SO)
+- **Programação Orientada a Objetos** (POO)
 
 ### **3º Ano**
 - **Gestão de Redes** (GR) 
 - **Serviços de Rede II** (SR2) 
 - **Tecnologias de Ligação** (TL) 
-- **Programação WEB (PWEB)** - 🚧 *Em construção...* <br>
+- **Programação WEB** (PWEB) 
 
 ### **Estágio NOS**
 **Duração:** 15 Julho – 14 Agosto, 2024  
@@ -40,23 +40,23 @@
 ## 📚 Repository Structure
 
 ### **1st Year**
-- **Fundamentals of Computer Graphics (FCG)**  
-- **Computer Technologies and Architecture (TAC)** 
+- **Fundamentals of Computer Graphics** (FCG)  
+- **Computer Technologies and Architecture** (TAC) 
 
 ### **2nd Year**
-- **Databases (BD)**  
-- **Structured Cabling (CE)** 
-- **Data Routing (ED)** 
-- **Operating Systems II (SO2)** 
-- **Security (Segurança)**
-- **Operating Systems** - 🚧 *Under construction...*
-- **Object-Oriented Programming** - 🚧 *Under construction...*
+- **Databases** (BD)  
+- **Structured Cabling** (CE) 
+- **Data Routing** (ED) 
+- **Operating Systems II** (SO2) 
+- **Security** (Segurança)
+- **Operating Systems** (SO)
+- **Object-Oriented Programming** (POO)
 
 ### **3rd Year**
-- **Network Management (GR)** 
-- **Network Services II (SR2)** 
-- **Connection Tecnologies (TL)** 
-- **WEB Programming (PWEB)** - 🚧 *Under construction...* <br>
+- **Network Management** (GR) 
+- **Network Services II** (SR2) 
+- **Connection Tecnologies** (TL) 
+- **WEB Programming** (PWEB)
 
 ### **Internship NOS**
 **Duration:** 15 July – 14 August, 2024  
