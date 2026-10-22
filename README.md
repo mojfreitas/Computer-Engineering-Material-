@@ -30,6 +30,10 @@
 **Duração:** 15 Julho – 14 Agosto, 2024  
 **Descrição:** Desenvolvimento de uma aplicação web em PHP utilizando a framework Laravel, integrada com uma base de dados MySQL para gestão e armazenamento de informação.
 
+### **Estágio OM Digital Solutions**
+**Duração:** 9 Fevereiro - 26 Junho, 2026
+**Descrição:** _em construção...🚧_
+
 <br><br>
 # ENGLISH (EN)
 
@@ -62,3 +66,6 @@
 **Duration:** 15 July – 14 August, 2024  
 **Description:** Development of a web application in PHP using the Laravel framework, integrated with a MySQL database for data management and storage. 
 
+### **Internship OM Digital Solutions**
+**Duration:** 9 February - 26 June, 2026
+**Description:** _under construction...🚧_
